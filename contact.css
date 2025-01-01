@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* light pink background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #870c4c;
+    padding: 20px;
+}
+
+.header .logo2 img {
+    width: 150px;
+}
+
+.nav-items a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-items a:hover {
+    color: #f8bbd0;
+}
+
+/* Welcome Section */
+.welcome {
+    text-align: center;
+    padding: 50px 0;
+    color: #880e4f; /* dark purple */
+}
+
+.intro {
+    text-align: center;
+    color: #6a1b9a; /* medium purple */
+    padding: 20px 40px;
+    line-height: 1.6;
+}
+
+/* Contact Form Section */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f3e5f5; /* light purple */
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.form-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+h3 {
+    color: #ec407a;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid #ec407a;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.send-button {
+    background-color: #ec407a;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #d81b60; /* darker pink */
+}
+
+/* Map */
+.map {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Footer */
+.footer {
+    background-color: #880e4f;
+    color: white;
+    padding: 40px 0;
+}
+
+.subfooter1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.subfooter1 div {
+    width: 23%;
+}
+
+.subfooter1 h2 {
+    color: #f48fb1;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.subfooter1 p, 
+.subfooter1 a, 
+.subfooter1 ol {
+    color: white;
+}
+
+.sections4 img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.hr {
+    border-top: 1px solid #f48fb1;
+    margin: 20px 0;
+}
+
+.subfooter2 {
+    text-align: center;
+    color: #f8bbd0;
+}

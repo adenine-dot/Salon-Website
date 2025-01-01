@@ -1,0 +1,216 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f2f8; /* Light background */
+  color: #4a2a52; /* Dark purple text */
+}
+
+.header {
+  
+  background-color: #870c4c; /* Pink */
+  padding: 20px;
+  text-align: center;
+}
+
+.header .logo img {
+  width: 150px; /* Adjust logo size */
+}
+
+.nav-items a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.nav-items a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.rel img {
+  width: 100%;
+  height: auto;
+}
+
+.center {
+  text-align: center;
+  margin-top: -60px; /* Adjust to overlay text on the image */
+  position: relative;
+  z-index: 10;
+  color: white; /* White text for contrast */
+}
+
+.welcome {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.intro {
+  padding: 20px;
+  background-color: #e1bee7; /* Light purple */
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.choosen {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.r-of-choosen {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.work {
+  background-color: #f8bbd0; /* Light pink */
+  border-radius: 10px;
+  padding: 15px;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.service {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #d5006d; /* Pink border */
+  border-radius: 10px;
+  margin: 20px;
+  overflow: hidden;
+  width: 300px; /* Fixed width for consistency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-header img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.price {
+  color: #d5006d; /* Pink */
+  font-weight: bold;
+}
+
+.bu {
+  background-color: #d5006d; /* Pink */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bu:hover {
+  background-color: #a2003d; /* Darker pink */
+}
+
+.why-c-m-r {
+  padding: 20px;
+  background-color: #e1bee7; /* Light purple */
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.reason {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reason li {
+  margin: 10px 0;
+}
+
+.body1 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #f8bbd0; /* Light pink */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  width: 250px; /* Fixed width for consistency */
+}
+
+.footer {
+  background-color: #4a2a52; /* Dark purple */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer h2 {
+  margin: 10px 0;
+}
+
+.footer .sections1, .footer .sections2, .footer .sections3, .footer .sections4 {
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .r-of-choosen {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .work {
+      width: 80%; /* Full width on smaller screens */
+  }
+
+  .container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      width: 90%; /* Full width on smaller screens */
+  }
+}

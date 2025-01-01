@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:  #870c4c;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo2 img {
+    height: 80px;
+    margin-left: 20px;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.nav-items a:hover {
+    color: #f8f8ff;
+}
+
+.rel img {
+    object-fit: cover;
+}
+
+.center h2 {
+    text-align: center;
+    color: white;
+    background-color: #ff66b2;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.service-rates h1 {
+    text-align: center;
+    color: #ff66b2;
+    font-size: 36px;
+}
+
+.service-rates p {
+    text-align: center;
+    color: #990066;
+    margin: 0 10%;
+}
+
+.rates_div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px auto;
+    width: 90%;
+}
+
+.rates {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 3fr;
+    background-color: #ffe6f2;
+    border-bottom: 1px solid #ff99cc;
+    padding: 10px;
+    text-align: center;
+}
+
+.rates p {
+    margin: 0;
+    color: #990066;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #990066;
+    color: white;
+    padding: 20px 0;
+}
+
+.sections1, .sections2, .sections3, .sections4 {
+    margin: 20px;
+}
+
+.footer h2 {
+    color: #ff99cc;
+}
+
+.subfooter1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sections4 img {
+    width: 30px;
+    margin: 10px;
+}
+
+.subfooter2 {
+    text-align: center;
+    color: white;
+    background-color: #ff66b2;
+    padding: 10px 0;
+}
+
+.hr {
+    border-top: 2px solid white;
+    margin: 10px 0;
+}
