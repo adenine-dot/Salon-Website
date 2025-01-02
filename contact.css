@@ -1,12 +1,10 @@
-/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fce4ec; /* light pink background */
+    background-color: #fce4ec; 
     margin: 0;
     padding: 0;
 }
 
-/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -30,26 +28,24 @@ body {
     color: #f8bbd0;
 }
 
-/* Welcome Section */
 .welcome {
     text-align: center;
     padding: 50px 0;
-    color: #880e4f; /* dark purple */
+    color: #880e4f;
 }
 
 .intro {
     text-align: center;
-    color: #6a1b9a; /* medium purple */
+    color: #6a1b9a;
     padding: 20px 40px;
     line-height: 1.6;
 }
 
-/* Contact Form Section */
 .contact-section {
     display: flex;
     justify-content: center;
     padding: 40px;
-    background-color: #f3e5f5; /* light purple */
+    background-color: #f3e5f5; 
 }
 
 .contact-container {
@@ -88,10 +84,8 @@ h3 {
 }
 
 .send-button:hover {
-    background-color: #d81b60; /* darker pink */
+    background-color: #d81b60; 
 }
-
-/* Map */
 .map {
     flex: 1;
     margin-left: 20px;
@@ -99,50 +93,64 @@ h3 {
 
 .map iframe {
     width: 100%;
-    height: 300px;
+    height: 350px;
+    padding-top: 60px;
     border: none;
 }
 
-/* Footer */
 .footer {
-    background-color: #880e4f;
-    color: white;
-    padding: 40px 0;
-}
-
-.subfooter1 {
     display: flex;
-    justify-content: space-around;
-    padding: 20px 0;
-}
-
-.subfooter1 div {
-    width: 23%;
-}
-
-.subfooter1 h2 {
-    color: #f48fb1;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.subfooter1 p, 
-.subfooter1 a, 
-.subfooter1 ol {
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #6a1b9a;
+    padding: 20px;
     color: white;
+    height: 100%;
 }
 
-.sections4 img {
-    width: 40px;
-    margin-right: 10px;
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.hr {
-    border-top: 1px solid #f48fb1;
-    margin: 20px 0;
+.footer h2 {
+    margin: 10px 0;
 }
 
-.subfooter2 {
+.footer .sections3 {
+    text-align: left;
+    width: 60%;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer img {
+    margin: 5px;
+    width: 30px;
+}
+
+.footer .subfooter2 {
     text-align: center;
-    color: #f8bbd0;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.footer .sections4 {
+    text-align: right;
+    width: 30%;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    z-index: 10;
+    padding-top: 90%;
 }
