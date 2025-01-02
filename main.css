@@ -1,21 +1,21 @@
-/* General Styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f2f8; /* Light background */
-  color: #4a2a52; /* Dark purple text */
+  background-color: #f8f2f8; 
+  color: #4a2a52; 
 }
 
 .header {
   
-  background-color: #870c4c; /* Pink */
+  background-color: #870c4c; 
   padding: 20px;
   text-align: center;
 }
 
 .header .logo img {
-  width: 150px; /* Adjust logo size */
+  width: 150px; 
 }
 
 .nav-items a {
@@ -40,10 +40,10 @@ body {
 
 .center {
   text-align: center;
-  margin-top: -60px; /* Adjust to overlay text on the image */
+  margin-top: -60px;
   position: relative;
   z-index: 10;
-  color: white; /* White text for contrast */
+  color: white; 
 }
 
 .welcome {
@@ -53,7 +53,7 @@ body {
 
 .intro {
   padding: 20px;
-  background-color: #e1bee7; /* Light purple */
+  background-color: #e1bee7; 
   border-radius: 10px;
   margin: 0 20px;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .work {
-  background-color: #f8bbd0; /* Light pink */
+  background-color: #f8bbd0; 
   border-radius: 10px;
   padding: 15px;
   width: 30%;
@@ -92,11 +92,11 @@ body {
 
 .card {
   background-color: white;
-  border: 2px solid #d5006d; /* Pink border */
+  border: 2px solid #d5006d; 
   border-radius: 10px;
   margin: 20px;
   overflow: hidden;
-  width: 300px; /* Fixed width for consistency */
+  width: 300px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
@@ -116,12 +116,12 @@ body {
 }
 
 .price {
-  color: #d5006d; /* Pink */
+  color: #d5006d;
   font-weight: bold;
 }
 
 .bu {
-  background-color: #d5006d; /* Pink */
+  background-color: #d5006d;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -131,12 +131,12 @@ body {
 }
 
 .bu:hover {
-  background-color: #a2003d; /* Darker pink */
+  background-color: #a2003d; 
 }
 
 .why-c-m-r {
   padding: 20px;
-  background-color: #e1bee7; /* Light purple */
+  background-color: #e1bee7;
   margin: 20px;
   border-radius: 10px;
 }
@@ -162,16 +162,16 @@ body {
 }
 
 .box {
-  background-color: #f8bbd0; /* Light pink */
+  background-color: #f8bbd0; 
   border-radius: 10px;
   padding: 20px;
   margin: 15px;
   text-align: center;
-  width: 250px; /* Fixed width for consistency */
+  width: 250px; 
 }
 
 .footer {
-  background-color: #4a2a52; /* Dark purple */
+  background-color: #4a2a52; 
   color: white;
   padding: 20px;
   text-align: center;
@@ -192,25 +192,4 @@ body {
 
 .footer a:hover {
   text-decoration: underline;
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-  .r-of-choosen {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .work {
-      width: 80%; /* Full width on smaller screens */
-  }
-
-  .container {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .card {
-      width: 90%; /* Full width on smaller screens */
-  }
 }
